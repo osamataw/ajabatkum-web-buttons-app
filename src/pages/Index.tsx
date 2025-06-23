@@ -1,4 +1,3 @@
-
 import { useNavigate } from "react-router-dom";
 import ClassButton from "@/components/ClassButton";
 import { GraduationCap, Globe } from "lucide-react";
@@ -7,18 +6,18 @@ const Index = () => {
   const navigate = useNavigate();
 
   const classes = [
-    { name: "الصف الأول الابتدائي", grade: "الابتدائي", url: "https://www.ajabatkum.com/grade-1" },
-    { name: "الصف الثاني الابتدائي", grade: "الابتدائي", url: "https://www.ajabatkum.com/grade-2" },
-    { name: "الصف الثالث الابتدائي", grade: "الابتدائي", url: "https://www.ajabatkum.com/grade-3" },
-    { name: "الصف الرابع الابتدائي", grade: "الابتدائي", url: "https://www.ajabatkum.com/grade-4" },
-    { name: "الصف الخامس الابتدائي", grade: "الابتدائي", url: "https://www.ajabatkum.com/grade-5" },
-    { name: "الصف السادس الابتدائي", grade: "الابتدائي", url: "https://www.ajabatkum.com/grade-6" },
-    { name: "الصف الأول المتوسط", grade: "المتوسط", url: "https://www.ajabatkum.com/grade-7" },
-    { name: "الصف الثاني المتوسط", grade: "المتوسط", url: "https://www.ajabatkum.com/grade-8" },
-    { name: "الصف الثالث المتوسط", grade: "المتوسط", url: "https://www.ajabatkum.com/grade-9" },
-    { name: "الصف الأول الثانوي", grade: "الثانوي", url: "https://www.ajabatkum.com/grade-10" },
-    { name: "الصف الثاني الثانوي", grade: "الثانوي", url: "https://www.ajabatkum.com/grade-11" },
-    { name: "الصف الثالث الثانوي", grade: "الثانوي", url: "https://www.ajabatkum.com/grade-12" },
+    { name: "الصف الأول الابتدائي", grade: "الابتدائي", url: "https://www.ajabatkum.com/saf1/" },
+    { name: "الصف الثاني الابتدائي", grade: "الابتدائي", url: "https://www.ajabatkum.com/saf2/" },
+    { name: "الصف الثالث الابتدائي", grade: "الابتدائي", url: "https://www.ajabatkum.com/saf3/" },
+    { name: "الصف الرابع الابتدائي", grade: "الابتدائي", url: "https://www.ajabatkum.com/saf4/" },
+    { name: "الصف الخامس الابتدائي", grade: "الابتدائي", url: "https://www.ajabatkum.com/saf5/" },
+    { name: "الصف السادس الابتدائي", grade: "الابتدائي", url: "https://www.ajabatkum.com/saf6/" },
+    { name: "الصف الأول المتوسط", grade: "المتوسط", url: "https://www.ajabatkum.com/saf1m/" },
+    { name: "الصف الثاني المتوسط", grade: "المتوسط", url: "https://www.ajabatkum.com/sa2m/" },
+    { name: "الصف الثالث المتوسط", grade: "المتوسط", url: "https://www.ajabatkum.com/saf3m/" },
+    { name: "الصف الأول الثانوي", grade: "الثانوي", url: "https://www.ajabatkum.com/saf1t/" },
+    { name: "الصف الثاني الثانوي", grade: "الثانوي", url: "https://www.ajabatkum.com/saf2t/" },
+    { name: "الصف الثالث الثانوي", grade: "الثانوي", url: "https://www.ajabatkum.com/saf3t/" },
   ];
 
   const handleClassClick = (className: string, url: string) => {
