@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">إجاباتكم - Ajabatkum</string>
+    <string name="title_activity_main">إجاباتكم - Ajabatkum</string>
+    <string name="package_name">com.ajabatkum.app</string>
+    <string name="custom_url_scheme">com.ajabatkum.app</string>
+</resources>
