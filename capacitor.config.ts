@@ -2,7 +2,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.ajabatkum.app',
+  appId: 'codespace-vigilant-sp ace-garbanzo-wr454x979xx6fgxqp',
     appName: 'إجاباتكم - Ajabatkum',
       webDir: 'dist',
         server: {
